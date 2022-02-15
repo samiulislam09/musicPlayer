@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+    border: 2px solid rgba(173, 173, 173, 0.699);
+    border-radius: 10px;
+    width: 400px;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+a img{
+    height: 40px;
+    padding: 3px 3px;
+}
+.image-section{
+    text-align: center;
+}
+.image-section img{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(173, 173, 173, 0.699);
+    border-radius: 20px;
+}
+.song-name{
+    margin-left: 5px;
+}
+.artist-name{
+    text-align: center;
+    margin: 10px;
+}
+.artist-name p{
+    color: rgb(235, 235, 235);
+    font-weight: bold;
+}
+.controls{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0;
+}
+.controls img{
+    height: 30px;
+}
+.range-section{
+    text-align: center;
+}
+.range-section input{
+    width: 95%;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.controls .pause-btn{
+    height: 70px;
+    filter: invert(39%) sepia(16%) saturate(614%) hue-rotate(156deg) brightness(97%) contrast(89%);
+}
